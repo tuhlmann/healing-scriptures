@@ -1,0 +1,23 @@
+= Schriften der Heilung
+:Author: Sid Roth
+:Revision: v0.1.0
+:Date: 2015-12-24
+:Translation: Torsten Uhlmann
+:Editor: Ekkehard Winkler
+:producer: Asciidoctor
+:doctype: book
+:toc: left
+:toclevels: 1
+:source-highlighter: coderay
+:imagesdir: images
+:front-cover-image: image:cover.jpg[Front Cover,1050,1600]
+
+include::chapters/intro.adoc[]
+
+include::chapters/chapter1.adoc[]
+
+include::chapters/chapter2.adoc[]
+
+include::chapters/chapter3.adoc[]
+
+include::chapters/faq.adoc[]
