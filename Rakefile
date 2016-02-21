@@ -19,6 +19,9 @@ task :build => [:clean] do
     sh "bundle exec asciidoctor -D #{build_dir}/#{filename} -o index.html #{source}"
     cp_r 'images', "#{build_dir}/#{filename}"
 
+    # Build Docbook
+    sh "bundle exec asciidoctor -b docbook -D #{build_dir}/#{filename} -o #{filename}.xml #{source}"
+
     # Build pdf
     sh "bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN -D #{build_dir} -o #{filename}.pdf #{source}"
 

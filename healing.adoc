@@ -1,4 +1,4 @@
-= Schriften der Heilung
+// = Schriften der Heilung
 :Author: Sid Roth
 :Revision: v0.1.0
 :Date: 2015-12-24
@@ -8,6 +8,8 @@
 :doctype: book
 :toc: left
 :toclevels: 1
+:toc-title: Inhaltsverzeichnis
+:caution-caption: Achtung
 :source-highlighter: coderay
 :imagesdir: images
 :front-cover-image: image:cover.jpg[Front Cover,1050,1600]
