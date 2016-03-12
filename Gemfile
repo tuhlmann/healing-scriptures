@@ -9,7 +9,7 @@ gem 'kindlegen', '~> 2.9.5'
 gem 'coderay', '~> 1.1.0'
 
 # Rake
-gem 'rake', '~> 10.4.2'
+gem 'rake', '~> 10.5.0'
 
 # Font
 gem 'asciidoctor-pdf-cjk-kai_gen_gothic', '~> 0.1.1'
