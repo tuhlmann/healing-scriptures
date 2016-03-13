@@ -1,4 +1,4 @@
-// = Schriften der Heilung
+= Schriften der Heilung
 :Author: Sid Roth
 :Revision: v0.1.0
 :Date: 2015-12-24
@@ -15,6 +15,7 @@
 :front-cover-image: image:cover.jpg[Front Cover,1050,1600]
 :icons: font
 :icon-set: octicon
+ifdef::backend-pdf[:notitle:]
 
 include::chapters/intro.adoc[]
 

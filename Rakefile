@@ -1,7 +1,7 @@
 require 'bundler/setup'
 require 'asciidoctor'
 
-SOURCES = %w(healing.adoc)
+SOURCES = %w(heilung.adoc)
 
 desc "Run build task"
 task :default => :build
