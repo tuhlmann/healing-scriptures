@@ -43,14 +43,6 @@ Der Unterschied zwischen einer Heilung und einem Wunder:
 Eine Heilung ist ein schrittweises Wunder, ein Wunder ist eine sofortige Heilung.
 
 
-[quote, Rita L.]
---
-*Erlebte Heilung in der Gegenwart*
-
-"`Meine Tochter wurde gerettet, als ihre Organe versagten.
-Gott hat die Kontrolle!`"
---
-
 === Warum werden manche Menschen geheilt und andere nicht?
 
 Es kann viele Gründe geben, warum manche Menschen geheilt werden und
@@ -61,6 +53,15 @@ Aber wir sind berufen, nicht zu richten. Wir sind berufen, Gläubige zu sein.
 Wir sollen Gott vertrauen und ihn nicht mit unserem begrenzten
 Verständnis in Frage stellen. Wir sind verantwortlich für das,
 was wir wissen, nicht für das was wir nicht wissen.
+
+
+[quote, Rita L.]
+--
+*Erlebte Heilung in der Gegenwart*
+
+"`Meine Tochter wurde gerettet, als ihre Organe versagten.
+Gott hat die Kontrolle!`"
+--
 
 
 === Muss man auf eine besondere Art beten, um Heilungswunder zu erleben?
@@ -131,7 +132,7 @@ Gott, der durch die für Heilung betende Person gewirkt hat, erhält alle Ehre!
 
 === Was antworte ich jemandem, der mich fragt, warum Gott ihn nicht geheilt hat?
 
-CAUTION: Gib ihnen eine Kopie dieses Buches!
+TIP:  Gib ihnen eine Kopie dieses Buches!
 Jesus hat den Preis für ihre Heilung bezahlt.
 Daher sind sie bereits geheilt und in dem Maß, wie sie die Frucht des
 Glaubens entwickeln und widerstehen, so muss der Teufel fliehen.

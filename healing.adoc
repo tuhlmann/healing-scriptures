@@ -13,6 +13,8 @@
 :source-highlighter: coderay
 :imagesdir: images
 :front-cover-image: image:cover.jpg[Front Cover,1050,1600]
+:icons: font
+:icon-set: octicon
 
 include::chapters/intro.adoc[]
 
