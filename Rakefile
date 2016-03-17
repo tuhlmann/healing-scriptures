@@ -20,18 +20,19 @@ task :build => [:clean] do
     cp_r 'images', "#{build_dir}/#{filename}"
 
     # Build Docbook
-    sh "bundle exec asciidoctor -b docbook -D #{build_dir}/#{filename} -o #{filename}.xml #{source}"
+    #sh "bundle exec asciidoctor -b docbook -D #{build_dir}/#{filename} -o #{filename}.xml #{source}"
 
     # Build pdf
-    sh "bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN -D #{build_dir} -o #{filename}.pdf #{source}"
+    #sh "bundle exec asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicCN -D #{build_dir} -o #{filename}.pdf #{source}"
+    sh "bundle exec asciidoctor-pdf -a pdf-style=healing-theme.yml -a pdf-fontsdir=./fonts -D #{build_dir} -o #{filename}.pdf #{source}"
 
     # Build epub
-    sh "bundle exec asciidoctor-epub3 -D #{build_dir} -o #{filename}.epub #{source}"
+    sh "bundle exec asciidoctor-epub3 -a epub3-stylesdir=./styles -D #{build_dir} -o #{filename}.epub #{source}"
     # Fix output name
     #mv "#{build_dir}/#{docname}.epub", "#{build_dir}/#{filename}.epub"
 
     # Build mobi
-    sh "bundle exec asciidoctor-epub3 -D #{build_dir} -o #{filename}.mobi -a ebook-format=kf8 #{source}"
+    sh "bundle exec asciidoctor-epub3 -D #{build_dir} -o #{filename}.mobi -a epub3-stylesdir=./styles -a ebook-format=kf8 #{source}"
     # Fix output name
     #mv "#{build_dir}/#{docname}-kf8.epub", "#{build_dir}/#{filename}-kf8.epub"
     #mv "#{build_dir}/#{docname}.mobi", "#{build_dir}/#{filename}.mobi"
