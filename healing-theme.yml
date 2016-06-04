@@ -10,6 +10,11 @@ font:
       bold: Vegur-Bold.ttf
       italic: Vegur-Regular.ttf
       bold_italic: Vegur-Bold.ttf
+    Crimson-Font:
+      normal: Crimson-Roman.ttf
+      bold: Crimson-Bold.ttf
+      italic: Crimson-Italic.ttf
+      bold_italic: Crimson-BoldItalic.ttf
     Roboto Mono:
       normal: RobotoMono-Regular.ttf
       bold: RobotoMono-Bold.ttf
